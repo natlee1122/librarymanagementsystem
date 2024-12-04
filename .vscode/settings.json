@@ -1,18 +1,2 @@
 {
-    "redhat.telemetry.enabled": true,
-    "files.autoSave": "afterDelay",
-    "workbench.editorAssociations": {
-        "*.json": "default"
-    },
-
-    "java.project.sourcePaths": [
-        "src/main/java",
-        "test/java",
-    ],
-
-    "java.debug.settings.onBuildFailureProceed": true,
-
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
 }
