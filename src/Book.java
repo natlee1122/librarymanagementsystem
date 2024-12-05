@@ -45,28 +45,4 @@ public class Book {
     public String getAuthor(){
         return this.author;
     }
-
-    /*
-     * Add book into the library
-     * @param Book book the book being added
-     */
-    public void addBook(Book book){
-        library.putIfAbsent(book.getISBN(), book.getName());
-    }
-
-    /*
-     * Remove book from the library
-     * @param Book book the book being added
-     */
-    public void removeBook(Book book){
-        library.remove(book.getISBN());
-    }
-
-    /*
-     * Remove book that are outdated from the library
-     * @param Book book the book being added
-     */
-    public void removeOutdated(){
-        
-    }
 }
